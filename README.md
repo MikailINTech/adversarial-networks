@@ -1,4 +1,4 @@
-This is a project aiming to explore different type of adversarial attakcs and defense mechanism on a MobileNet-V3.
+This is a project aiming to explore different type of adversarial attacks and defense mechanism on a MobileNet-V3.
 
 # Basic usage
 
