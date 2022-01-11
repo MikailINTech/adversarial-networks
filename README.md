@@ -1,9 +1,4 @@
-This is a basic code repository for Assignment 3.
-
-The repository contains a basic model and a basic training and testing
-procedure. It will work on the testing-platform (but it will not
-perform well against adversarial examples). The goal of the project is
-to train a new model that is as robust as possible.
+This is a project aiming to explore different type of adversarial attakcs and defense mechanism on a MobileNet-V3.
 
 # Basic usage
 
