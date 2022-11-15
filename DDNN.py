@@ -1,13 +1,14 @@
-import torch.nn as nn
-import torch.nn.functional as F
+import math
 import os
 
-import torch
-import numpy as np
-from torchvision import datasets
-import torchvision.transforms as transforms
-import math
 import matplotlib.pyplot as plt
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torchvision.transforms as transforms
+from torchvision import datasets
+
 
 def imshow(img):
     # helper function to un-normalize and display an image
@@ -58,7 +59,7 @@ class DnCNN(nn.Module):
     
 # initialize the NN
 model = DnCNN()
-model.cuda()
+model.to(device)
 
 
 def train(model, nepochs, train_loader, lr, nf):
